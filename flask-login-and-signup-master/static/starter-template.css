@@ -1,0 +1,60 @@
+
+.container-fluid ul{
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  font-size: 15px;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 16px 16px;
+  text-decoration: none;
+  width: 80px;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: grey;
+  color: lightgray;
+  width: 80px;
+  margin: 0%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+#banner{
+  background: linear-gradient(rgba(0,0,0,0.5),#009688), url(https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  height: 91.2vh;
+  background-size: cover;
+  padding-right: 10px;
+}
+.banner-text{
+  text-align: center;
+  color: aqua;
+  padding-top: 180px;
+}
+.banner-text h1{
+  font-size: 120px;
+  font-family: "Dancing Script", cursive;
+}
+.banner-text p{
+  font-size: 35px;
+  padding-top: 15px;
+  font-family: cursive;
+}
+
+
+@media screen and (max-width: 770px){
+  .banner-text h1{
+      font-size: 44px;
+  }
+  #banner{
+      display: block;
+      margin: 20px auto;
+  } 
+}
